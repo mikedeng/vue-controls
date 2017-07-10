@@ -8,14 +8,14 @@ import Router from 'vue-router'
 // import Select from '@/components/Select'
 Vue.use(Router)
 Vue.use(Vuex)
-import VuexExample from '@/components/VuexExample'
+import Counter from '@/components/Counter'
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'VuexExample',
-      component: VuexExample
+      name: 'Counter',
+      component: Counter
     }
   ]
 })
